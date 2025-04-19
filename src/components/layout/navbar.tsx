@@ -31,10 +31,16 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex items-center">
-              <BriefcaseIcon className="h-8 w-8 text-blue-600 dark:text-blue-400" />
-              <span className="ml-2 text-xl font-bold text-gray-900 dark:text-white">Optern</span>
-            </Link>
+          <Link to="/" className="flex items-center">
+  <img 
+    src="/logo.png" 
+    alt="Optern Logo" 
+    className="h-8 w-8 object-contain"
+  />
+  <span className="ml-2 text-xl font-bold text-gray-900 dark:text-white">Optern</span>
+</Link>
+
+
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
