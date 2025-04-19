@@ -33,7 +33,7 @@ export function Navbar() {
           <div className="flex items-center">
           <Link to="/" className="flex items-center">
   <img 
-    src="/logo.png" 
+    src="A:\web_prj\optern\project\images\logo.png" 
     alt="Optern Logo" 
     className="h-8 w-8 object-contain"
   />
